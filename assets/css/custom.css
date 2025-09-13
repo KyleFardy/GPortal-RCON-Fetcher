@@ -1,0 +1,58 @@
+:root {
+  --bs-card-bg: #212529;
+  --bs-card-border-width: 1px;
+  --bs-card-border-color: rgba(255, 255, 255, 0.15);
+}
+body {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+.login-card {
+  max-width: 500px;
+  margin: 5% auto;
+  border-radius: 16px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+  background-color: var(--bs-card-bg);
+}
+
+.server-card {
+  margin: 5% auto;
+  border-radius: 16px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+  background-color: var(--bs-card-bg);
+}
+
+.form-control,
+.form-control:focus {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+.swal2-popup {
+  border-radius: 16px !important;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25) !important;
+  background-color: var(--bs-card-bg) !important;
+  color: var(--bs-body-color) !important;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+
+.swal2-title {
+  color: var(--bs-body-color) !important;
+}
+
+.swal2-html-container {
+  color: var(--bs-body-color) !important;
+}
+
+.swal2-confirm.swal2-styled {
+  background-color: var(--bs-primary) !important;
+  color: var(--bs-white) !important;
+  border: none !important;
+}
+
+.swal2-cancel.swal2-styled {
+  background-color: var(--bs-secondary) !important;
+  color: var(--bs-white) !important;
+  border: none !important;
+}
